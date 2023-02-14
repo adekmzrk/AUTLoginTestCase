@@ -34,7 +34,7 @@ jobs:
       uses: actions/checkout@main
       with:
         repository: adekmzrk/LoginTestCase
-        
+        path: './LoginTestCase'
     - name: Show working dir
       run: ls              
     - name: Set up JDK 11
